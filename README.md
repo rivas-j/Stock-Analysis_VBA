@@ -2,14 +2,13 @@
 
 ## Overview of Project
 
-### Explain the purpose of this analysis. The purpose and background are well defined
-### Steve, who is a good friend, needed to help his parents pick a stock that performed well on the market. He did a good job providing us with a spreadsheet that narrowed the scope to a subset of stocks. Their goals were to identify stocks that traded at a high volume, and stocks with a high return on investment. We built a stock analyzer using Excel's Visual Basic language. This analyzer will help Steve pick a high performing stock he can recommend to his parents.
+### Steve, who is a good friend, needed to help his parents pick a stock that performed well on the market. He did a good job providing us with a spreadsheet that narrowed the scope to a subset of stocks. Steve's parents' goals were to identify stocks that traded at a high volume, and stocks with a high return on investment. We built a stock analyzer using Excel's Visual Basic language. This analyzer will help Steve pick a high performing stock he can recommend to them.
 
 ## Results
 
 ### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-### We used VBA Scripts to build a ticker that summarized each stock's total daily volume, and the return. We used the array variable to build our custom stock ticker ###as outlined in the code quoted below:
+### We used VBA Scripts to build a ticker that summarized each stock's total daily volume, and the return. We used the array variable to build our custom stock ticker as outlined in the code quoted below:
 
 ```
     'Initialize array of all tickers
@@ -34,12 +33,12 @@
 ```
     yearValue = InputBox("What year would you like to run the analysis on?")
 ```
-### This variable then generates a window in Excel allowing Steve to enter the year he wants to analyze, which is 2017 followed by 2018 in a separate instance
+### This variable then generated a window in Excel that allowed Steve to enter the year he wanted to analyze, which was 2017 followed by 2018 in a separate instance
 ![Text Prompt](https://github.com/rivas-j/stock-analysis/blob/4a0563b137d8957645c4057297d97e788e6b343a/Resources/VBA_Challenge_textprompt.png)
 
 ### **Stock Tickers**
 
-### Below you will see the results of our VBA code, we accomplished these helpful charts using for loops with conditional statements. We also want to highlight the  
+### Below you will see the results of our VBA code. We built these helpful charts using for loops with conditional statements. We also want to highlight the  
 ### effect refactoring our code had on the execution time. In the ticker below, we have one column listing the total volume, and another column calculating the return for each stock:
 ![2017 Stock Analysis](https://github.com/rivas-j/stock-analysis/blob/568bf21329df5e139e59684e1c3e78cbd085732a/Resources/VBA_Challenge_2017.png)
 
@@ -56,7 +55,6 @@
 
 ## Summary
 
-### When analyzing the stock market, analysts tend to deal with large amounts of data. When designing macros in Visual Basic, we want to keep efficiency in mind to 
-### mitigate performance issues wich such large data sets. We accomplished this by refactoring our code, reducing the time it took for our script to run. This is very ### beneficial because it allows us to analyze large data sets quickly, without using too many CPU resources.
+### Stock market analysts tend to deal with large amounts of data. When designing macros in Visual Basic, we want to keep efficiency in mind to mitigate performance issues wich such large data sets. We accomplished this by refactoring our code, reducing the time it took for our script to run. This is very beneficial because it allows us to analyze large data sets quickly, without using too many CPU resources.
 
 ### One of the drawbacks of refactoring code is that it might be too time consuming, depending on how the previous developer formatted the script. If the previous developer didn't use whitespace effectively, or include helpful comments throughout the script, it might be better to build a new macro.
