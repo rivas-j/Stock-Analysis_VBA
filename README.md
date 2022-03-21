@@ -38,8 +38,7 @@
 
 ### **Stock Tickers**
 
-### Below you will see the results of our VBA code. We built these helpful charts using for loops with conditional statements. We also want to highlight the  
-### effect refactoring our code had on the execution time. In the ticker below, we have one column listing the total volume, and another column calculating the return for each stock:
+### Below you will see the results of our VBA code. We built these helpful charts using for loops with conditional statements. We also want to highlight the effect refactoring our code had on the execution time. In the ticker below, we have one column listing the total volume, and another column calculating the return for each stock:
 ![2017 Stock Analysis](https://github.com/rivas-j/stock-analysis/blob/568bf21329df5e139e59684e1c3e78cbd085732a/Resources/VBA_Challenge_2017.png)
 
 ### Below we can see the execution time of our script before refactoring:
@@ -51,7 +50,7 @@
 ### Please also take note of the execution time of our script before refactoring:
 ![2018 Before Refactor](https://github.com/rivas-j/stock-analysis/blob/26e7f0b6e665f4f40ee42b83d67d93dc684adc11/Resources/2018%20Before%20Refactor.png)
 
-### Based on these charts, if I am Steve, I suggest to Mom and Dad to invest in ENPH. It yielded positive returns in both years, and increased in trade volume after ### 2017
+### Based on these charts, if I am Steve, I suggest to Mom and Dad to invest in ENPH. It yielded positive returns in both years, and increased in trade volume after 2017
 
 ## Summary
 
