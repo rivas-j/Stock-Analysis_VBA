@@ -60,7 +60,8 @@ This variable then generated a window in Excel allows the user to enter the desi
 ![VBA Text Prompt](images/VBA_textprompt.png)
 
 # <div align="center">Results</div>
-Below you will see the results of our VBA code. We built these helpful charts using for loops with conditional statements. We also want to highlight the effect refactoring our code had on the execution time. In the ticker below, we have one column listing the total volume, and another column calculating the return for each stock:
+Below you will see the VBA code in action. I built these helpful charts using for loops with conditional statements. I also want to highlight the effect refactoring our code had on execution time. In the ticker below, we have one column listing the total volume, and another column calculating the return for each stock:
+
 ![2017 Stock Analysis](images/VBA_Analysis_2017.png)
 
 Below we can see the execution time of our script before refactoring:
