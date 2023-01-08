@@ -20,7 +20,7 @@ I built a stock analyzer using Excel's Visual Basic programming language. The go
 # <div align="center">Dataset</div>
 This data set contains stock price of multiple green energy funds, spanning from 2017-2018.
 
-- [Green Stocks](data/green_stocks.xlsx): Spreadsheet containing 3,000 rows of stock price data across two years, downloaded from Amazon S3 host
+- [Green Stocks](data/green_stocks.xlsx): Spreadsheet containing 6,000 rows of stock price data across two years, downloaded from Amazon S3 host
 
 # <div align="center">Tools Used</div>
 - **Microsoft Excel:** Spreadsheet used to analyze dataset and produce visualizations
