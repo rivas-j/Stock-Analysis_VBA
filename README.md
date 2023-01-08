@@ -30,7 +30,7 @@ This data set contains stock price of multiple green energy funds, spanning from
 # <div align="center">Analysis and Challenges</div>
 I compared the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-Utilizing VBA Scripts, I built a ticker that summarized each stock's total daily volume, and the return. We used the array variable to build our custom stock ticker as outlined in the code quoted below:
+Utilizing VBA Scripts, I built a ticker that summarized each stock's total daily volume, and the return. I used the array variable to build our custom stock ticker as outlined in the code quoted below:
 
 ```vb
     'Initialize array of all tickers
@@ -50,7 +50,7 @@ Utilizing VBA Scripts, I built a ticker that summarized each stock's total daily
     tickers(11) = "VSLR"
 ```
 
-In order to allow the user to choose the year he wanted to analyze, we entered an input variable with a prompt:
+In order to allow the user to choose the year he wanted to analyze, I entered an input variable with this prompt:
 
 ```vb
     yearValue = InputBox("What year would you like to run the analysis on?")
@@ -60,11 +60,11 @@ This variable then generated a window in Excel allows the user to enter the desi
 ![VBA Text Prompt](images/VBA_textprompt.png)
 
 # <div align="center">Results</div>
-Below you will see the VBA code in action. I built these helpful charts using for loops with conditional statements. I also want to highlight the effect refactoring our code had on execution time. In the ticker below, we have one column listing the total volume, and another column calculating the return for each stock:
+Below you will see the VBA code in action. I built these helpful charts using for loops with conditional statements. I also want to highlight the effect refactoring our code had on execution time. In the ticker below, there is one column listing total volume, and another column calculating the return for each stock:
 
 ![2017 Stock Analysis](images/VBA_Analysis_2017.png)
 
-Below we can see the execution time of our script before refactoring:
+Below please see the execution time of our script before refactoring:
 
 ![2017 Before Refactor](images/2017_Before_Refactor.png)
 
