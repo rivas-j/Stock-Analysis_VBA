@@ -5,7 +5,7 @@
 ## <div align="center">Utilize Visual Basic to build an Excel program that analyzes stock data</div>
 
 <p align="center">
-<a href="#goal">Goal</a> &nbsp;&bull;&nbsp;
+<a href="#goal">Goals</a> &nbsp;&bull;&nbsp;
 <a href="#dataset">Dataset</a> &nbsp;&bull;&nbsp;
 <a href="#tools-used">Tools Used</a> &nbsp;&bull;&nbsp;
 <a href="#analysis-and-challenges">Analysis and Challenges</a> &nbsp;&bull;&nbsp;
@@ -13,7 +13,7 @@
 <a href="#summary">Summary</a>
 </p>
 
-# <div align="center">Goal</div>
+# <div align="center">Goals</div>
 I built a stock analyzer using Excel's Visual Basic programming language. The goal of this application is to automatically analyze spreadsheet of trading data to identify stocks that traded at a high volume, and stocks with a high return on investment. Once I have those recommendations, I can advise a prospective investor on the best stocks for a high performing, diversified portfolio.
 
 
