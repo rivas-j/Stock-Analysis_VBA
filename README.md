@@ -1,6 +1,6 @@
 # Green Stock Analysis with Visual Basic
 
-![Green Stock Analysis 2017](images/VBA_Analys_2017.png)
+![Green Stock Analysis 2017](images/VBA_Analysis_2017.png)
 
 ## <div align="center">Utilize Visual Basic to build an Excel program that analyzes stock data</div>
 
